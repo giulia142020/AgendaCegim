@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+    <ImageView
+       android:layout_width="300dp"
+        android:layout_height="300dp"
+android:layout_gravity="center_horizontal"
+        android:src="@drawable/logoac"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:layout_marginLeft="150dp"
+        android:src="@drawable/image"/>
+    <Button
+        android:id="@+id/entrarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="ENTRAR"
+
+        android:textColor="#000"
+        android:background="@drawable/botao1"/>
+    <TextView
+        android:id="@+id/criarContaTv"
+        android:layout_width="wrap_content"
+       android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:text="Não possui conta?  Crie a sua"
+
+        android:fontFamily="sans-serif-black"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        />
+
+
+
+
+</LinearLayout>

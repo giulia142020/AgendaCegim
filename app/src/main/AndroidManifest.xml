@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.agendacegim">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_ac"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_ac"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".DashboardProfessorActivity"
+            android:label="@string/title_activity_dashboard_test"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginAlunoActivity" />
+        <activity android:name=".Esc2Activity" />
+        <activity android:name=".DashboardAlunoActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".CadastroProfessorActivity" />
+        <activity android:name=".EscActivity" />
+        <activity android:name=".CadastroAlunoActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
